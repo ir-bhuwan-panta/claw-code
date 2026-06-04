@@ -18,7 +18,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Start InvisiRisk PSE
-      uses: invisirisk/pse-action@main
+      uses: invisirisk/pse-action@develop
       with:
         api_url: ${{ secrets.IR_URL }}
         app_token: ${{ secrets.IR_TOKEN }}
